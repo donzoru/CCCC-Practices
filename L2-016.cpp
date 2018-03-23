@@ -12,7 +12,6 @@ void fin(int x,int d,bool ok){
     if(!ok) ss.insert(x);
     for(int y:g[x]) fin(y,d+1,ok);
 }
-
 int main(){
     scanf("%d",&n);
     while(n--){
